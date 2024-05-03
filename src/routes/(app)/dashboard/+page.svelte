@@ -1,3 +1,9 @@
+<script>
+  import FormProfile1 from "../../../components/sections/forms/FormProfile1.svelte";
+  import FormProfile2 from "../../../components/sections/forms/FormProfile2.svelte";
+  import Stat1 from "../../../components/sections/stats/Stat1.svelte";
+</script>
+
 <!-- ========== HEADER ========== -->
 <header
   class="sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-[48] w-full bg-white border-b text-sm py-2.5 sm:py-4 lg:ps-64 dark:bg-neutral-800 dark:border-neutral-700"
@@ -853,8 +859,11 @@
 
 <!-- Content -->
 <div class="w-full lg:ps-64">
-  <div class="p-4 sm:p-6 space-y-4 sm:space-y-6">
+  <div class="p-4 sm:p-6 space-y-4 sm:space-y-6 dark:bg-neutral-900">
     <!-- your content goes here ... -->
+    <Stat1 />
+    <FormProfile1 />
+    <FormProfile2 />
   </div>
 </div>
 <!-- End Content -->
