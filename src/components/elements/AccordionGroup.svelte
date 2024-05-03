@@ -1,5 +1,5 @@
 <script>
-  import AccordionItem from "./AccordionItem.svelte";
+  import AccordionItem from "../AccordionItem.svelte";
 </script>
 
 <div class="hs-accordion-group">
