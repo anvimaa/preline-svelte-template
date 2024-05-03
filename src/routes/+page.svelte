@@ -1,4 +1,6 @@
 <script>
+  import Clientes1 from "../components/sections/clientes/Clientes1.svelte";
+  import Clientes2 from "../components/sections/clientes/Clientes2.svelte";
   import Footer1 from "../components/sections/footers/Footer1.svelte";
   import FloatiangHeader from "../components/sections/header/FloatiangHeader.svelte";
   import HeaderMegaMenu from "../components/sections/header/HeaderMegaMenu.svelte";
@@ -23,6 +25,9 @@
     <Hero2 />
     <Hero3 />
     <HeroForm1 />
+
+    <Clientes1 />
+    <Clientes2 />
   </div>
 </main>
 <!-- ========== END MAIN CONTENT ========== -->
