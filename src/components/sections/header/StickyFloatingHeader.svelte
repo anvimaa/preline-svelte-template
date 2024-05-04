@@ -13,14 +13,14 @@
     <div class="flex items-center justify-between">
       <a
         class="flex-none text-xl font-semibold dark:text-white"
-        href="#"
+        href="/"
         aria-label="Brand">Brand</a
       >
       <div class="md:hidden">
         <button
           type="button"
           class="hs-collapse-toggle size-8 flex justify-center items-center text-sm font-semibold rounded-full border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-neutral-700 dark:hover:bg-neutral-700"
-          data-hs-collapse="#navbar-collapse-with-animation"
+          data-hs-collapse="/navbar-collapse-with-animation"
           aria-controls="navbar-collapse-with-animation"
           aria-label="Toggle navigation"
         >
@@ -67,20 +67,20 @@
       >
         <a
           class="font-medium text-blue-600 md:py-6 dark:text-blue-500"
-          href="#"
-          aria-current="page">Landing</a
+          href="/"
+          aria-current="page">Home</a
         >
         <a
           class="font-medium text-gray-500 hover:text-gray-400 md:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
-          href="#">Account</a
+          href="/pricing">Pricing</a
         >
         <a
           class="font-medium text-gray-500 hover:text-gray-400 md:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
-          href="#">Work</a
+          href="/dashboard">Dashboard</a
         >
         <a
           class="font-medium text-gray-500 hover:text-gray-400 md:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
-          href="#">Blog</a
+          href="/">Blog</a
         >
 
         <div
@@ -110,7 +110,7 @@
           >
             <a
               class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
-              href="#"
+              href="/"
             >
               About
             </a>
@@ -141,19 +141,19 @@
               >
                 <a
                   class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
-                  href="#"
+                  href="/"
                 >
                   About
                 </a>
                 <a
                   class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
-                  href="#"
+                  href="/"
                 >
                   Downloads
                 </a>
                 <a
                   class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
-                  href="#"
+                  href="/"
                 >
                   Team Account
                 </a>
@@ -162,13 +162,13 @@
 
             <a
               class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
-              href="#"
+              href="/"
             >
               Downloads
             </a>
             <a
               class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
-              href="#"
+              href="/"
             >
               Team Account
             </a>
@@ -177,7 +177,7 @@
 
         <a
           class="flex items-center gap-x-2 font-medium text-gray-500 hover:text-blue-600 md:border-s md:border-gray-300 md:my-6 md:ps-6 dark:border-neutral-700 dark:text-neutral-400 dark:hover:text-blue-500"
-          href="#"
+          href="/"
         >
           <svg
             class="flex-shrink-0 size-4"
